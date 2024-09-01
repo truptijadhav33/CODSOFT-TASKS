@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/aa3aefc522.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <h2><a href="#">Trupti Jadhav</a></h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#project">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="header-container">
+        <div class="header-left">
+          <h1>
+            Hello ,
+
+            <p>I'm <span>Trupti</span></p>
+          </h1>
+          <p>
+            I am a creative web developer,<br />standing at the intersection of
+            design & code.
+          </p>
+          <div class="header-btn">
+            <a href="./assets/Trupti Jadhav.pdf" target="_blank">Download CV</a>
+          </div>
+        </div>
+        <div class="header-right">
+          <img src="./assets/girl.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <section id="about">
+      <div class="about-container">
+        <h1 class="sec-title">About me</h1>
+        <div class="about-text-container">
+          <p>
+            Hello ! I'm <span> Trupti Jadhav ,</span> a dedicated and passionate
+            <span>computer engineering student</span>,I recently completed my
+            <span>Diploma in Computer Engineering, </span> where I honed my
+            skills in
+            <span
+              >Software development, Web development, and Network management.
+            </span>
+            With a strong foundation in programming languages and a keen
+            interest in emerging technologies, I am eager to apply my knowledge
+            in practical settings.I am now looking forward to pursuing a
+            Bachelor's degree in engineering to further deepen my expertise and
+            contribute to innovative projects.
+          </p>
+        </div>
+        <div class="social-media">
+          <div class="sm">
+            <a href="https://github.com/truptijadhav33" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="sm">
+            <a
+              href="https://www.linkedin.com/in/trupti-jadhav-71b148261/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+          <div class="sm">
+            <a href="mailto:jadhavtrupti33@gmail.com"
+              ><i class="fas fa-envelope"></i
+            ></a>
+          </div>
+          <div class="sm">
+            <a href="https://www.instagram.com/truptiii_0091"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+          <div class="sm">
+            <a href="https://twitter.com/Trupti_Jadhav33"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+          <div class="sm">
+            <a href="tel:+919850560091"><i class="fas fa-phone"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section  -->
+
+    <section id="skills" class="card-container">
+      <h1 class="sec-title">Skills</h1>
+      <div class="skills-container row">
+        <div class="skill"><p>HTML</p></div>
+        <div class="skill"><p>CSS</p></div>
+        <div class="skill"><p>JavaScript</p></div>
+        <div class="skill"><p>MYSQL</p></div>
+        <div class="skill"><p>C</p></div>
+        <div class="skill"><p>CPP</p></div>
+        <div class="skill"><p>DS</p></div>
+        <div class="skill"><p>PHP</p></div>
+      </div>
+    </section>
+
+   <!-- Project Section -->
+
+   <section id="project" class="">
+    <div class="card-container">
+      <h1 class="sec-title">Project</h1>
+      <div class="project-container">
+      <div class="project">
+        <a href="https://github.com/truptijadhav33/College-Web.git">
+        <img src="./assets/college-web.png" alt="College project"></a>
+        <p>
+        Developed a responsive and user-friendly college website,<br> featuring dynamic content management, student and faculty portals, <br>and an integrated event calendar. Utilized HTML, CSS, JavaScript, <br>and backend technologies to deliver a seamless user experience and maintain data integrity.</p>
+      </div>
+    </div>
+    </div>
+   </section>
+
+    <!--  Contact Section  -->
+    <section id="contact">
+      <form action="#">
+      <div class="contact-container">
+        <h1 class="sec-title">Contact me</h1>
+        <div class="sub-contact-container">
+          <input type="text" name="fname" id="fname" placeholder="First Name" required>
+          <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+        </div>
+        <div class="sub-contact-container">
+          <input type="email" name="mail" id="mail" placeholder="Email" required>
+          <input type="tel" name="tel" id="tel" placeholder="Phone" required>
+        </div>
+        <div class="msg-btn">
+          <textarea name="msg" id="msg" cols="30" rows="20" placeholder="Message" required></textarea>
+          <button type="submit">Submit</button>
+        </div>
+      </div>
+    </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      &copy;Trupti Jadhav
+    </footer>
+    <!-- <a href="#" class="back-to-top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a> -->
+
+   
+  </body>
+  <!-- <script>
+      let backtotop = select(".back-to-top");
+      if (backtotop) {
+        const toggleBacktotop = () => {
+          if (window.scrollY > 1000) {
+            backtotop.classList.add("active");
+          } else {
+            backtotop.classList.remove("active");
+          }
+        };
+        window.addEventListener("load", toggleBacktotop);
+        onscroll(document, toggleBacktotop);
+      }
+  </script> -->
+</html>
